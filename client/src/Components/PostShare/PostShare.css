@@ -1,0 +1,80 @@
+.PostShare {
+    display: flex;
+    gap: 10px;
+    background-color: var(--cardColor);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.PostShare>img {
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+}
+
+.input-post {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 15pz;
+}
+
+.input-post>input {
+    background-color: rgba(40, 52, 62,0.2);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+}
+
+.postoption{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.option{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+.option:hover{
+    cursor: pointer;
+}
+.postshare-btn{
+padding: 5px;
+padding-left: 5px;
+padding-top: 5px;
+font-size: 15px;
+}
+
+.previewimg{
+    position: relative;
+    margin-top: 10px;
+}
+
+.previewimg>svg{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.55);
+    border-radius: 50%;
+    color: aliceblue;
+}
+
+.previewimg>svg:hover{
+    color: rgb(201, 27, 27);
+}
+.previewimg>img{
+    width: 100%;
+    max-height: 20rem;
+    object-fit: cover;
+    border-radius: 10px;
+}

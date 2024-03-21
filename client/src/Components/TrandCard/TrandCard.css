@@ -1,0 +1,27 @@
+.TrandCard{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: var(--cardColor);
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 30px;
+}
+
+.trand{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.trand>span:nth-of-type(1){
+    font-weight: bold;
+}
+
+.trand>span:nth-of-type(2){
+font-size: 13px;}
+
+.r-btn{
+    height: 3rem;
+    width: 80%;
+    align-self: center;
+}

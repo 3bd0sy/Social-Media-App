@@ -1,0 +1,95 @@
+.auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* place-items: c; */
+    height: 100vh;
+    gap: 4rem;
+    position: relative;
+}
+
+.auth>div {
+    display: flex;
+    place-items: center;
+}
+
+.a-left {
+    gap: 4rem;
+}
+
+.a-left>img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.webname>h1 {
+    font-style: 3rem;
+    background-color: red;
+    background-image: var(--buttonBg);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.webname>h6 {
+    font-size: 0.9rem;
+}
+
+.infoForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.infoInput {
+    outline: none;
+    border: none;
+    background-color: var(--inputColor);
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+}
+
+.infoForm>div {
+    display: flex;
+    gap: 1rem;
+    width: 90%;
+    height: 2rem;
+}
+
+.log-text {
+    color: rgb(78, 78, 222);
+    /* font-weight: bold; */
+}
+
+.log-text:hover {
+    cursor: pointer;
+}
+
+
+.auth-btn{
+    width: 6rem;
+    height: 2rem;
+align-self: flex-end;
+}
+
+.authForm{
+    background-color: var(--cardColor);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.authForm>div{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+/* .infoForm>div:nth-of-type(2){
+    width: 100%;
+    place-items: center;
+} */

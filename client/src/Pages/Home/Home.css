@@ -1,0 +1,6 @@
+.home {
+    position: relative;
+    display: grid;
+    grid-template-columns: 25% auto 25%;
+    gap: 20px;
+}
