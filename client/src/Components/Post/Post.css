@@ -25,3 +25,18 @@
 .details{
     font-size: 1.3rem;
 }
+
+.userInfo-post{
+    z-index: 100;
+margin-left: 5px    ; 
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+.userInfo-post>.name{
+
+    color: rgb(0, 0, 0)    ;
+}
+.post>img{
+    /* margin-top: -78px; */
+}

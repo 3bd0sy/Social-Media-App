@@ -34,18 +34,18 @@ const InfoCard = () => {
     return (
         <div className='InfoCard'>
             <h4 >Profile info</h4>
+
             {user._id === profileUserId ?
                 <div className="infoHead">
                     <UilPen width="2rem" hieght='1.2rem' onClick={() => { setModalOpened(true);  }} />
                     <ProfileModal data={user} modalOpened={modalOpened} setModalOpened={setModalOpened} />
                 </div>
                 : ""}
-
             <div className="info">
                 <span>
                     <b>Status </b>
-                </span>
-                <span>{profileUser.relationship}</span>
+                </span>{console.log(user)}
+                <span>{user.relationship}</span>
             </div>
 
             <div className="info">

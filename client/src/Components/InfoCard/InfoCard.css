@@ -1,22 +1,24 @@
-.InfoCard{
+.InfoCard {
     display: flex;
-flex-direction: column;
-gap: 1px;
-background-color: var(--cardColor);
-padding: 1rem;
-border-radius: 1rem;
-width: 90%;
+    flex-direction: column;
+    gap: 1px;
+    background-color: var(--cardColor);
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 90%;
 }
-.infoHead{
+
+.infoHead {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.infoHead>svg{
+
+.infoHead>svg {
     cursor: pointer;
 }
 
-.info-btn{
+.info-btn {
     width: 7rem;
     height: 2rem;
     margin-top: 6rem;
